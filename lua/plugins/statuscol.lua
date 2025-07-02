@@ -34,7 +34,7 @@ return {
           text = { builtin.lnumfunc },
           condition = { true },
           click = "v:lua.ScLa",
-          hl = "LineNr", -- Подсветка как обычные номера строк
+          hl = "LineNumber", -- Подсветка как обычные номера строк
         },
         {
           sign = {
